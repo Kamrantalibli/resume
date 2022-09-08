@@ -1,0 +1,55 @@
+.profile{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    img{
+        width: 9.375rem;
+        height: 9.375rem;
+        padding: 0.3125rem;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid $base-color;
+        
+    }
+}
+h2{
+    margin-top: 20px;
+    font-size: 1.375rem;
+    text-align: center;
+}
+h5{
+    font-size: 0.875rem;
+    text-align: center;
+}
+@media print{
+    .profile{
+        margin-top: 27px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    
+        img{
+            width: 7.6rem;
+            height: 7.6rem;
+            padding: 0.3125rem;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid $base-color;
+            
+        }
+    }
+    h2{
+        margin-top: 12px;
+        font-size: 1.375rem;
+        text-align: center;
+    }
+    h5{
+        font-size: 0.875rem;
+        text-align: center;
+        font-weight: 400;
+    }
+}

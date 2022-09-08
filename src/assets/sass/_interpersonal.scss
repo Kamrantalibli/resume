@@ -1,0 +1,98 @@
+.interpersonal-timeline{
+    margin-top: 20px;
+    position: relative;
+    list-style: none;
+    margin-left: 20px;
+    &::before{
+        content: "";
+        position: absolute;
+        left: 11.02rem;
+        top: 0;
+        width: 2px;
+        height: 100%;
+        background-color: #d0d0d0;
+    }
+    li{
+        position: relative;
+        margin: 0 0 3rem 9rem;
+        padding-left: 1.3rem;
+        .timeline-title{
+            line-height: 15px;
+            font-weight: 600;
+            padding-top: -8px;
+            font-size: 1.15rem;
+            margin-bottom: 5px;
+        }
+        &::before{
+            content: "";
+            position: absolute;
+            left: -0.43rem;
+            top: 0;
+            width: 16px;
+            height: 16px;
+            border: 2px solid $base-color;
+            border-radius: 50%;
+            background-color: #fff;
+            transition: 0.2s;
+        }
+        &:hover{
+            &::before{
+                background-color: $base-color
+            }
+        }
+        
+    }
+}
+
+@media print {
+    .interpersonal-title{
+        font-size: 1.17rem;
+        font-weight: 600;
+    }
+    .interpersonal-timeline{
+        margin-top: 10px;
+        position: relative;
+        list-style: none;
+        margin-left: 20px;
+        width: 100%;
+        &::before{
+            content: "";
+            position: absolute;
+            left: 6.0109rem;
+            top: 0;
+            width: 1px;
+            height: 100%;
+            background-color: #d0d0d0;
+        }
+        li{
+            position: relative;
+            margin: 0 0 1rem 4rem;
+            padding-left: 1.3rem;
+            .timeline-title{
+                line-height: 15px;
+                font-weight: 400;
+                padding-top: -8px;
+                font-size: 0.8rem;
+                margin-bottom: 5px;
+            }
+            &::before{
+                content: "";
+                position: absolute;
+                left: -0.43rem;
+                top: 0;
+                width: 16px;
+                height: 16px;
+                border: 2px solid $base-color;
+                border-radius: 50%;
+                background-color: #fff;
+                transition: 0.2s;
+            }
+            &:hover{
+                &::before{
+                    background-color: $base-color
+                }
+            }
+            
+        }
+    }
+}

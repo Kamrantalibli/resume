@@ -1,0 +1,94 @@
+.contact-title{
+    font-size: 1.375rem;
+}
+
+.contact-details-inside{
+    ul{
+        list-style: none;
+        padding: 0; 
+        li{
+            a{
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                .avatar{
+                    width: 35px;
+                    height: 35px;
+                    border-radius: 50%;
+                    background-color: $base-color;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: #fff;
+                    i{
+                        transform: scale(1.1);
+                    }
+                }
+                .contact-content{
+                margin-left: 15px;
+                    .main{
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: #000;
+                    }
+                    h6{
+                        font-weight: 400;
+                        font-size: 0.8rem;
+                        color: $base-color;
+                        opacity: 0.7;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media print {
+    .contact-title{
+        font-size: 1.17rem;
+        font-weight: 600;
+    }
+    
+    .contact-details-inside{
+        ul{
+            list-style: none;
+            padding: 0; 
+            li{
+                margin-top: 7px;
+                a{
+                    cursor: pointer;
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    .avatar{
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50%;
+                        background-color: $base-color;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: #fff;
+                        i{
+                            transform: scale(0.9);
+                        }
+                    }
+                    .contact-content{
+                    margin-left: 7px;
+                    line-height: 14px;
+                        .main{
+                            font-size: 15px;
+                            font-weight: 400;
+                            color: #000;
+                        }
+                        h6{
+                            font-weight: 500;
+                            font-size: 0.8rem;
+                            color: $base-color;
+                        }
+                    }
+                }
+            }
+        }
+    } 
+}

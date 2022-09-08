@@ -1,0 +1,52 @@
+.language-title{
+    font-size: 1.375rem;
+}
+.language-details-inside{
+    ul{
+        list-style: none;
+        padding: 0;
+        li{
+           display: flex;
+           justify-content: space-between;
+           line-height: 35px;
+           align-items: center; 
+        .language-main{
+            font-size: 16px;
+            font-weight: 500;
+        }
+        .language-proficiency{
+            opacity: 0.6;
+            font-weight: 400;
+        }
+        }
+    }
+}
+
+@media print{
+    .language-title{
+        margin-top: 10px;
+        font-size: 1.17rem;
+        font-weight: 600;
+    }
+    .language-details-inside{
+        ul{
+            list-style: none;
+            padding: 0;
+            li{
+               display: flex;
+               justify-content: space-between;
+               line-height: 30px;
+               align-items: center; 
+            .language-main{
+                font-size: 15px;
+                font-weight: 400;
+            }
+            .language-proficiency{
+                font-size: 15px;
+                opacity: 0.6;
+                font-weight: 200;
+            }
+            }
+        }
+    }   
+}
