@@ -3,6 +3,12 @@ import React from "react";
 const Experience = () => {
   const experience_data = [
     {
+      date: "November 2022 - Current",
+      title: "Front End Developer",
+      subtitle: "Matrix Training Center",
+      content:"I started working as a Front End Developer Mentor"
+    },
+    {
       date: "February 2019 - April 2021",
       title: "Full Stack Developer",
       subtitle: "Information Technology Center LLC",

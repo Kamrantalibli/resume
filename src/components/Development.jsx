@@ -7,14 +7,17 @@ const Development = () => {
     "SASS/SCSS",
     "Bootstrap",
     "JavaScript",
-    "JQuery",
+    "TypeScript",
     "React Js",
     "Redux",
+    "JQuery",
     "Webpack",
+    "JSON",
     "MySQL",
     "Java",
-    "GIT",
-    "Responsive-design"
+    "FireBase",
+    "Responsive-design",
+    "GIT"
   ];
   return (
     <div>
