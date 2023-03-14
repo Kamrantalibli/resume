@@ -10,12 +10,14 @@ const Development = () => {
     "TypeScript",
     "React Js",
     "Redux",
-    "JQuery",
-    "Webpack",
+    "Node Js",
+    "Express",
+    "MongoDB",
     "JSON",
     "MySQL",
-    "Java",
     "FireBase",
+    "JQuery",
+    "Webpack",
     "Responsive-design",
     "GIT"
   ];
